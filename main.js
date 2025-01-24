@@ -16,7 +16,7 @@ async function getOpenAIResponse(prompt) {
             headers: {
                 'Content-Type': 'application/json',
                 //'Authorization': `Bearer YOUR_API_KEY`,
-                'Authorization': `Bearer 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`,
+                'Authorization': `Bearer ssk-proj-Czsntn15PblWV8-hHQ1epkCz3NXEkwBTq4UGzWwx_h5vJOtV9XfC9nskx22-iwWhvxbPh1DbWtT3BlbkFJgLFb9WPHHwS7doCZZqfnJjaRCkFYh4h9S3CGJJg5SnTE2uUzbgxcTyWPRhsALvyWEko2lXqJ0A`,
             },
             body: JSON.stringify({
                 model: 'text-davinci-003',
